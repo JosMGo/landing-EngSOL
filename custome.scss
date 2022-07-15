@@ -1,0 +1,116 @@
+
+$info: #FFC93C; 
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  
+}
+  .hea{
+     background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+     url(../real_studio_1/img/img-header-princ.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     height: 100vh;
+     max-width: 1600px;
+     padding: 40px;
+     margin: 0 auto;
+     
+     
+     
+    
+
+}
+
+// HEADER NOVEDADES  //
+
+header{
+  background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../real_studio_1/img/img-blog-nov.jpg);
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 50vh;
+  padding: 40px;
+  
+}
+
+.container-list .img-nosotros{
+  height: 500px;
+  width: 500px;
+}
+
+
+.logo-navegacion{
+  width: 100px;
+  height: 100px;
+}
+
+.logo-footer{
+  width: 180px;
+  height: 180px;
+}
+ 
+.servicios-card .card img{
+  width: 480px;
+  height: 400px;
+}
+
+.container-boton span{
+  background-color: #25D366;
+  font-size: 50px;
+  border: 1px solid #ffff;
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  justify-content: center;
+  bottom: 40px;
+  right: 30px;
+  transition: ease 0.3s;
+  animation: efecto 1.2s infinite;
+
+}
+.container-boton span i{
+  padding-bottom: 20px;
+}
+
+.container-boton span:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+ }
+
+.boton{
+  transition: ease 1s;
+ }
+
+.contacto{
+  background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../real_studio_1/img/img-back-contac.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: auto;
+  
+  
+
+ 
+}
+
+ 
+
+
+@keyframes efecto{
+  0%{
+    box-shadow: 0 0 0 0 rgb(240, 165, 0)
+  }
+  100%{
+    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+  }
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
